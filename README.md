@@ -17,8 +17,8 @@ Clone this Repository, change into the folder and run:
 docker build --force-rm -t march .
 ```
 
-`--force-rm` removes the intermediate containers
-`-t` sets the name for the container
+- `--force-rm` removes the intermediate containers
+- `-t` sets the name for the container
 
 ## Usage
 
