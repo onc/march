@@ -8,7 +8,13 @@ RUN pacman --noconfirm -Syyu && pacman --noconfirm -S \
     valgrind \
     cmake \
     git \
-    zsh
+    zsh \
+    xorg-server \
+    mesa-libgl \
+    libxrandr \
+    libxinerama \
+    libxcursor \
+    libxi
 
 # Install oh-my-zsh
 RUN sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
