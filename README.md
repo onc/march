@@ -5,7 +5,7 @@ Start an Archlinux docker-container and mount the current directory into the con
 I use this container to run software which is not available or compatible with macOS (Sierra) like valgrind.
 But you could also use this container to compile and test your code on linux.
 
-![screenshot](https://github.com/onc/march/blob/master/screenshots/screenshot.png)
+![screenshot](https://git.onze.io/onze/march/raw/branch/master/screenshots/screenshot.png)
 
 ## Installation
 
